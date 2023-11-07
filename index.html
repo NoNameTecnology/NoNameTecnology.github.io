@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NoName Tecnology - Assistência Técnica e Manutenção</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="topbar">
+        <div class="left">
+          <img src="./img/logo.svg" alt="" />
+        </div>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+      </div>
+      <div class="menu" id="menu">
+        <a href="./index.html">Ínicio</a>
+        <a href="">Serviços</a>
+        <a href="">Entre em Contato</a>
+      </div>
+    </div>
+
+    <script>
+      // Menu
+      const mobileMenuButton = document.getElementById("mobile-menu");
+      const menu = document.getElementById("menu");
+
+      mobileMenuButton.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
