@@ -88,3 +88,14 @@ body {
 .card:hover{
     box-shadow: 0px 0px 10px 0px rgba(35, 0, 176, 0.75) ;
 }
+
+.quemsomos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    width: 90%;
+}

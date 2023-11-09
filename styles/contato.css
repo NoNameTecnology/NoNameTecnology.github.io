@@ -1,0 +1,34 @@
+.content {
+    gap: 201px;
+    height: 70vh;
+    width: auto;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: row;
+    padding-bottom: 40px;
+}
+.button a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.button img {
+    height: 100%;
+    width: 100px;
+}
+
+.button{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px 20px;
+    text-align: center;
+}
+
